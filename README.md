@@ -1,6 +1,6 @@
 # npmdoc-rpio
 
-#### api documentation for  rpio (v0.9.16)  [![npm package](https://img.shields.io/npm/v/npmdoc-rpio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rpio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rpio)
+#### basic api documentation for  [rpio (v0.9.16)](https://github.com/jperkin/node-rpio#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-rpio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rpio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rpio)
 
 #### High performance GPIO/i2c/PWM/SPI module for Raspberry Pi
 
@@ -21,25 +21,30 @@
 ```json
 
 {
-    "name": "rpio",
-    "version": "0.9.16",
-    "description": "High performance GPIO/i2c/PWM/SPI module for Raspberry Pi",
-    "main": "./lib/rpio.js",
-    "scripts": {
-        "test": "true",
-        "install": "node-gyp rebuild"
+    "author": {
+        "name": "Jonathan Perkin",
+        "url": "http://www.perkin.org.uk/"
+    },
+    "bugs": {
+        "url": "https://github.com/jperkin/node-rpio/issues"
     },
     "dependencies": {
         "bindings": "*",
         "nan": "*"
     },
+    "description": "High performance GPIO/i2c/PWM/SPI module for Raspberry Pi",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "dc4750db099c7e0e6e6505aa86297f4a23aaf5d6",
+        "tarball": "https://registry.npmjs.org/rpio/-/rpio-0.9.16.tgz"
+    },
     "engines": {
         "node": ">=0.8"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jperkin/node-rpio.git"
-    },
+    "gitHead": "53466f00813e51925d9f1cfaaf29f56168aeeca1",
+    "gypfile": true,
+    "homepage": "https://github.com/jperkin/node-rpio#readme",
     "keywords": [
         "bcm2835",
         "gpio",
@@ -54,9 +59,25 @@
         "rpi",
         "spi"
     ],
-    "author": "Jonathan Perkin <jonathan@perkin.org.uk> (http://www.perkin.org.uk/)",
     "license": "(ISC AND GPL-2.0)",
-    "gypfile": true
+    "main": "./lib/rpio.js",
+    "maintainers": [
+        {
+            "name": "jperkin"
+        }
+    ],
+    "name": "rpio",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jperkin/node-rpio.git"
+    },
+    "scripts": {
+        "install": "node-gyp rebuild",
+        "test": "true"
+    },
+    "version": "0.9.16",
+    "bin": {}
 }
 ```
 
